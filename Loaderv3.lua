@@ -5715,14 +5715,14 @@ function library:CreateWindow(options, ...)
 		}}, {"AddColorpicker", "__Designer.Colorpicker.ImageColor", backgroundsection, {
 			Name = "Image Color",
 			Flag = "__Designer.Background.ImageColor",
-			Value = Color3.new(255, 0, 102),
+			Value = Color3.new(255, 0, 116),
 			Callback = updatecolorsnotween,
 			__designer = 1
 		}}, {"AddSlider", "__Designer.Slider.ImageTransparency", backgroundsection, {
 			Name = "Image Transparency",
 			Flag = "__Designer.Background.ImageTransparency",
-			Value = 0,
-			Min = 91.5,
+			Value = 91.5,
+			Min = 0,
 			Max = 100,
 			Format = "Image Transparency: %s%%",
 			Textbox = true,
